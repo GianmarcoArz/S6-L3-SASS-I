@@ -1,0 +1,11 @@
+$font-mini: 15px;
+$font-midium: 25px;
+$font-large: 50px;
+
+@mixin title-big() {
+  font-size: $font-large;
+  font-weight: 700;
+}
+h1 {
+  @include title-big;
+}

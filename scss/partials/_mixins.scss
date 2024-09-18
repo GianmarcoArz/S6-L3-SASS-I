@@ -1,0 +1,12 @@
+@mixin floating($border-radius: null, $box-shadow: null, $border: null) {
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+  border: $border;
+}
+.imghero {
+  @include floating(
+    40px,
+    10px 10px 20px rgba(105, 105, 110, 0.717),
+    5px solid rgb(11, 26, 184)
+  );
+}

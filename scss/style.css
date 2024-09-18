@@ -1,0 +1,247 @@
+/* CSS Reset */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  -webkit-text-size-adjust: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  gap: 30px;
+}
+
+.padding-block-sm {
+  padding-block: 5px;
+}
+
+.padding-inline-sm {
+  padding-inline: 5px;
+}
+
+.padding-block-md {
+  padding-block: 10px;
+}
+
+.padding-inline-md {
+  padding-inline: 10px;
+}
+
+.padding-block-lg {
+  padding-block: 40px;
+}
+
+.padding-inline-lg {
+  padding-inline: 40px;
+}
+
+.padding-block-xl {
+  padding-block: 60px;
+}
+
+.padding-inline-xl {
+  padding-inline: 60px;
+}
+
+.padding-block-xxl {
+  padding-block: 80px;
+}
+
+.padding-inline-xxl {
+  padding-inline: 80px;
+}
+
+.margin-block-sm {
+  margin-block: 5px;
+}
+
+.margin-inline-sm {
+  margin-inline: 5px;
+}
+
+.margin-block-md {
+  margin-block: 10px;
+}
+
+.margin-inline-md {
+  margin-inline: 10px;
+}
+
+.margin-block-lg {
+  margin-block: 40px;
+}
+
+.margin-inline-lg {
+  margin-inline: 40px;
+}
+
+.margin-block-xl {
+  margin-block: 60px;
+}
+
+.margin-inline-xl {
+  margin-inline: 60px;
+}
+
+.margin-block-xxl {
+  margin-block: 80px;
+}
+
+.margin-inline-xxl {
+  margin-inline: 80px;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.hero {
+  background-color: #640fe5;
+  display: flex;
+}
+
+.blue {
+  background-color: #0e6cff;
+}
+
+.orange {
+  background-color: #ff8700;
+}
+
+.green {
+  background-color: #4caf50;
+}
+
+.imghero {
+  border-radius: 40px;
+  box-shadow: 10px 10px 20px rgba(105, 105, 110, 0.717);
+  border: 5px solid rgb(11, 26, 184);
+} /*# sourceMappingURL=style.css.map */

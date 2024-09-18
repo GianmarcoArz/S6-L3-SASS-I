@@ -1,0 +1,11 @@
+$color-button-map: (
+  "blue": #0e6cff,
+  "orange": #ff8700,
+  "green": #4caf50,
+);
+
+@each $nameColor, $color in $color-button-map {
+  .#{$nameColor} {
+    background-color: $color;
+  }
+}
